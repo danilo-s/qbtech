@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8080/counters
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:8080/counters/create/test
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:8080/counters/increment/test
+Accept: application/json
+
+###
+GET http://127.0.0.1:8080/counters/test
+Accept: application/json
